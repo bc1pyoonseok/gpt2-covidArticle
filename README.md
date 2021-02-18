@@ -34,7 +34,7 @@
     generated text
 
 
-## * With CLI *
+##  * With CLI *
 
 ### Input example
 
