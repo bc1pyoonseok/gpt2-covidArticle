@@ -15,14 +15,14 @@
     
 
 ### About
-	it is the gpt2 large base model that generate text based on your input keyword
+	it is the gpt2 large base model that generate covid article based on your input keyword
 
 ### How to use
 
-    * three ways to use Gpt2 covid article
-    	* CLI
-    	* Swagger
-    	* Demo
+    *  three ways to use Gpt2 covid article
+    	*  CLI
+    	*  Swagger
+    	*  Demo
 
 ### GET parameter
 
