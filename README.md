@@ -11,11 +11,11 @@
     Base model: gpt-2 large
     Epoch: 22
     Loss: 0.1053
-    Dataset:covid-19 Article
+    Dataset:covid-19 Article (https://github.com/ha-mulan/gpt2-FineTune-Tool/blob/master/dataset/cord19Article.txt)
+    
 
 ### About
-	* it is the gpt2 large base model that generate text based on your input keyword
-	*
+	it is the gpt2 large base model that generate text based on your input keyword
 
 ### How to use
 
@@ -34,7 +34,7 @@
     generated text
 
 
-##  * With CLI *
+##  *With CLI*
 
 ### Input example
 
@@ -53,10 +53,10 @@
 	The median time from illness onset to dyspnea was 7 days (interquartile range, 2-9; range, 0-13), and cough was present in 92.1% (152/299) of the 	deceased patients.
 
 
-## * With swagger *
+## *With swagger*
 
 API page: [Ainize](https://ainize.ai/ha-mulan/gpt2-covidArticle?branch=master)
 
-## * With a Demo *
+## *With a Demo*
 
 Demo page: [End-point](https://master-gpt2-covid-article-ha-mulan.endpoint.ainize.ai)
