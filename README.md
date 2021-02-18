@@ -19,10 +19,10 @@
 
 ### How to use
 
-    *  three ways to use Gpt2 covid article
-    	*  CLI
-    	*  Swagger
-    	*  Demo
+	three ways to use Gpt2 covid article
+    	1.  CLI
+    	2.  Swagger
+    	3.  Demo
 
 ### GET parameter
 
