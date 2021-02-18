@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   version: "1.0.0"
-  title: "gpt2-recipe-maker"
+  title: "gpt2-covidArticle"
 host: "master-gpt2-covid-article-ha-mulan.endpoint.ainize.ai"
 basePath: "/api/"
 schemes:
@@ -15,9 +15,21 @@ paths:
   /:
     get:
       tags:
-      - "make article related to covid19"
-      summary: "create article"
-      description: "please input name of covid19 artice"
+      - "generate covid article base on keyword"
+      summary: "generate covid article base on keyword"
+      description: 'please input keyword of covid article.
+
+      This app is generate covid article in text form.
+
+
+      How to use:
+        
+        First, input keyword related to covid-19.
+
+        Second, wait for result.
+
+
+      '
       produces:
       - "string"
       - "application/xml"
@@ -26,7 +38,7 @@ paths:
       - name: "keyword"
         type: 'string'
         in: "query"
-        description: "contents of artice"
+        description: "ex) type 'deadly'"
         required: true
         items:
           type: "string"
